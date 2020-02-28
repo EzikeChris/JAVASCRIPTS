@@ -1,0 +1,10 @@
+<header class="jumbotron">
+    <h1> the projects page</h1>
+</header>
+
+<% projects.forEach(function(project){ %>
+     <div> 
+         <h4><%= project.name %></h4>
+         <img src="<%= project.image %>">
+     </div>
+<% }); %>
