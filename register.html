@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>INSPINIA | Register</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+
+    <div class="middle-box text-center loginscreen   animated fadeInDown">
+        <div>
+            <div>
+
+                <h1 class="logo-name">NuggetCMS</h1>
+
+            </div>
+            <h3>Register to NuggetCMS+</h3>
+            <p>Create account to see it in action.</p>
+            <a href="#" class="btn btn-success btn-facebook">
+                <i class="fa fa-facebook"> </i> Sign in with Facebook
+            </a>
+            <form class="m-t" role="form" action="login.html">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name" required="">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email" required="">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Confirm Email" required="">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password" required="">
+                </div>
+                <div class="form-group" align="left">
+                    <label for="register-age">Date of birth:</label>
+                    <ul class="nav nav-tabs">
+                        <li>
+                            <div class="form-group">
+                                <div class="form-group">
+                                    <select name="dob_month" required="required" class="form-control" data-msg-required="When were you born?">            <option value="" disabled="disabled" selected="selected">month</option>            <option value="01">January</option>            <option value="02">February</option>            <option value="03">March</option>            <option value="04">April</option>            <option value="05">May</option>            <option value="06">June</option>            <option value="07">July</option>            <option value="08">August</option>            <option value="09">September</option>            <option value="10">October</option>            <option value="11">November</option>            <option value="12">December</option></select>
+                                </div>
+                        </li>
+                        <li>
+                            <div class="form-group">
+                                <input type="number" name="dob_day" required="required" max="31" maxlength="2" min="1" pattern="[0-9]*" placeholder="day" class="form-control" data-msg-required="When were you born?" data-msg-number="Please enter a valid day of the month." data-msg-min="Please enter a valid day of the month."
+                                    data-msg-max="Please enter a valid day of the month.">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-group">
+                                <input type="number" name="dob_year" required="required" min="1900" max="2004" maxlength="4" pattern="[0-9]*" placeholder="year" class="form-control" data-msg-required="When were you born?" data-msg-number="Please enter a valid year." data-msg-min="Please enter a valid year."
+                                    data-msg-max="Sorry, but you don't meet Spotify's age requirements.">
+                            </div>
+                        </li>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="form-group">
+                    <div class="checkbox i-checks"><label> <input type="checkbox"><i></i> Agree the terms and policy </label></div>
+                </div>
+                <button type="submit" class="btn btn-primary block full-width m-b">Register</button>
+                <div class="form-group" align="left">
+                    <div class="col-lg-12 col-offset-2">
+                        <input type="reset" value="Reset" class="btn btn-warning block full-width m-b">
+                    </div>
+                </div>
+
+                <p class="text-muted text-center"><small>Already have an account?</small></p>
+                <a class="btn btn-sm btn-white btn-block" href="login.html">Login</a>
+            </form>
+            <p class="m-t"> <small>Inspinia we app framework base on Bootstrap 3 &copy; 2014</small> </p>
+        </div>
+    </div>
+
+    <!-- Mainly scripts -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- iCheck -->
+    <script src="js/plugins/iCheck/icheck.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.i-checks').iCheck({
+                checkboxClass: 'icheckbox_square-green',
+                radioClass: 'iradio_square-green',
+            });
+        });
+    </script>
+</body>
+
+</html>
