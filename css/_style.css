@@ -1,0 +1,88 @@
+body {
+    background-color: #828282;
+}
+
+.nav-header {
+    padding: 25px 25px;
+    background-color: #828282;
+    background-image: url("patterns/header-profile.png");
+}
+
+.nav-header .text-muted {
+    color: #fff;
+}
+
+.img-circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.btn-primary {
+    background-color: #1e6583;
+    border-color: #1e6583;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary,
+.btn-primary:focus:active,
+.btn-primary:hover:active,
+.btn-primary.active:hover,
+.btn-primary.active:focus {
+    background-color: #293846;
+    border-color: #1e6583;
+    color: #ffffff;
+}
+
+.navbar-default .nav>li>a {
+    background-color: #1e6583;
+    border-color: 2px solid#fff;
+}
+
+.navbar-default .nav>li>a:hover,
+.navbar-default .nav>li>a:focus {
+    background-color: #293846;
+    color: white;
+}
+
+.label {
+    border-radius: 50%;
+}
+
+
+/* 
+table {
+    width: 100%;
+}
+
+thead {
+    background: #eaedf3;
+    -webkit-box-top-left-radius: 5px;
+    -webkit-box-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+th {
+    color: #6c7882;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 20px 10px;
+}
+
+tbody {
+    background: #fff;
+    font-size: 0.8rem;
+}
+
+td {
+    color: #6c7882;
+    padding: 20px 10px;
+} */

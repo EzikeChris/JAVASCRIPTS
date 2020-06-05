@@ -1,0 +1,180 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0 auto;
+}
+
+[class*='col-'] {
+    float: left;
+    padding: 0 15px;
+}
+
+.grid:after {
+    content: '';
+    display: grid;
+    clear: both;
+}
+
+
+/****************************
+ small screen with 12 columns 
+ ****************************/
+
+.col-xs-1 {
+    width: calc(100%/12* 1);
+}
+
+.col-xs-2 {
+    width: calc(100%/12*2);
+}
+
+.col-xs-3 {
+    width: calc(100%/12*3);
+}
+
+.col-xs-4 {
+    width: calc(100%/12*4);
+}
+
+.col-xs-5 {
+    width: calc(100%/12*5);
+}
+
+.col-xs-6 {
+    width: calc(100%/12*6);
+}
+
+.col-xs-7 {
+    width: calc(100%/12*7);
+}
+
+.col-xs-8 {
+    width: calc(100%/12*8);
+}
+
+.col-xs-9 {
+    width: calc(100%/12*9);
+}
+
+.col-xs-10 {
+    width: calc(100%/12*10);
+}
+
+.col-xs-11 {
+    width: calc(100%/12*11);
+}
+
+.col-xs-12 {
+    width: calc(100%/12*12);
+}
+
+
+/****************************
+ medium screen with 10 columns 
+ ****************************/
+
+.col-md-1 {
+    width: calc(100%/10*1);
+}
+
+.col-md-2 {
+    width: calc(100%/10*2);
+}
+
+.col-md-3 {
+    width: calc(100%/10*3);
+}
+
+.col-md-4 {
+    width: calc(100%/10*4);
+}
+
+.col-md-5 {
+    width: calc(100%/10*5);
+}
+
+.col-md-6 {
+    width: calc(100%/10*6);
+}
+
+.col-md-7 {
+    width: calc(100%/10*7);
+}
+
+.col-md-8 {
+    width: calc(100%/10*8);
+}
+
+.col-md-9 {
+    width: calc(100%/10*9);
+}
+
+.col-md-10 {
+    width: calc(100%/10*10);
+}
+
+
+/****************************
+ large screen with 8 columns 
+ ****************************/
+
+.col-lg-1 {
+    width: calc(100%/8*1);
+}
+
+.col-lg-2 {
+    width: calc(100%/8*2);
+}
+
+.col-lg-3 {
+    width: calc(100%/8*3);
+}
+
+.col-lg-4 {
+    width: calc(100%/8*4);
+}
+
+.col-lg-5 {
+    width: calc(100%/8*5);
+}
+
+.col-lg-6 {
+    width: calc(100%/8*6);
+}
+
+.col-lg-7 {
+    width: calc(100%/8*7);
+}
+
+.col-lg-8 {
+    width: calc(100%/8*8);
+}
+
+
+/****************************
+ whole screen with 100%
+ ****************************/
+
+.col-100 {
+    width: (100%);
+}
+
+
+/****************************
+ Responsive Screen
+ ****************************/
+
+.col-x-100 {
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 425px) {
+    [class *='col-x'] {
+        width: 100%;
+    }
+}
